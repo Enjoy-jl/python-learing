@@ -1,0 +1,5 @@
+message = ""
+while message != "quit":
+	message = input ("what kinds of food you like: ")
+	if message != "quit":
+		print (f"Will we will prepare {message} for you")

@@ -1,0 +1,4 @@
+def city_function(city ,country):
+	c_f = f"{city} {country}"
+	return c_f.title()
+

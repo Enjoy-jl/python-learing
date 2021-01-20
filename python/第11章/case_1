@@ -1,0 +1,5 @@
+def city_function(city ,country):
+	
+	print (f"{city.title()},{country.title()}")
+
+city_function("santiago","chile")

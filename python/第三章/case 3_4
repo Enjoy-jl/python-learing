@@ -1,0 +1,36 @@
+# 这段代码将会完成3-4 3-5 3-6 3-7
+#3-4
+guests = ['aa','bb','cc','dd']
+message = 'would you like take pare our party?'
+print(f"{guests[0].title()},{message}")#修改0更换嘉宾
+#3-5
+print(f"{guests[0].title()},can't come")
+guests[0] = 'ee'
+print(guests)
+print(f"{guests},{message}")
+#3-6
+guests.insert(0,'aa')
+guests.insert(4,'ff')
+guests.append('gg')
+print(f"{guests},{message}")
+#3-7
+print("you table is not come,you can invent two people")
+message1 = "I'm sorry, the party is over"
+message2 = "i still invest you take my party"
+#这里应该用循环，但是进行到这里并没有学，不应该使用
+guest=guests.pop()
+print(f"{guest},{message1}")
+guest=guests.pop()
+print(f"{guest},{message1}")
+guest=guests.pop()
+print(f"{guest},{message1}")
+guest=guests.pop()
+print(f"{guest},{message1}")
+guest=guests.pop()
+print(f"{guest},{message1}")
+#仅剩2
+print(f"{guests[0]},{message2}")
+print(f"{guests[1]},{message2}")
+del guests[1]
+del guests
+print(guests)

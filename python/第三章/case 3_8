@@ -1,0 +1,15 @@
+pleases = ["ee","aa" ,"bb" ,"cc", "dd"]
+print(pleases)
+print(sorted(pleases))
+print(pleases)
+print(sorted(pleases,reverse=True))
+print(pleases)
+pleases.reverse()
+print(pleases)
+pleases.reverse()
+print(pleases)
+pleases.sort()
+print(pleases)
+pleases.sort(reverse=True)
+print(pleases)
+

@@ -1,0 +1,16 @@
+#case 7-8 完成熟食店程序
+sandwish_orders = ["tuna","abs","pastrami","jsdsja","pastrami","pastrami"]
+finished_sandwiches = []
+while sandwish_orders:
+	sandwish = sandwish_orders.pop()
+	finished_sandwiches.append(sandwish)
+	print(f"I made you a {sandwish} sandwhish")
+	
+print(finished_sandwiches)
+print(sandwish_orders)
+#7-9
+sandwish_orders = ["tuna","abs","pastrami","jsdsja","pastrami","pastrami"]
+print('the pastrami is seal out')
+while "pastrami" in sandwish_orders:
+	sandwish_orders.remove("pastrami")
+print(sandwish_orders)

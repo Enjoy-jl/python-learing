@@ -1,0 +1,5 @@
+#这段为了测试sublime text不能运行输入提示，需在终端运行
+#直接运行，不能交互，可以尝试终端运行- c'm'd命令提示符
+
+message = input("tell me something, i will repeat back to you:")
+print(message)

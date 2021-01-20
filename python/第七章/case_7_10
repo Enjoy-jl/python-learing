@@ -1,0 +1,13 @@
+places ={}
+active = True
+while active :
+	print ("you can over by 'quit'")
+	name = input ("whats your name: ")
+	if name == "quit":
+		break
+	message = "if you could visit one place in the world,"
+	message += "where would you go: "
+	place = input(message)
+	places[name] = place
+	
+print (f"{name} would like to {places}")
